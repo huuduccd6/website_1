@@ -1,0 +1,63 @@
+/* Tablet width>=740px and width<=1024px */
+/* navbar */
+@media only screen and (max-width: 1023px){
+  /* navbar */
+   .nav-bar{
+      display: none !important;
+   }
+   .info-mobile{
+      display: none;
+   }
+   .info-2{
+      position:absolute;
+      left: 34%;
+      top: 50%;
+      padding-right:3%;
+      transform: translateY(-50%);
+      color:#339af0;
+  }
+  
+  .info-3{
+      position: absolute;
+      right: 30%;
+      top: 50%;
+      transform: translateY(-50%);
+      color:#339af0;
+      padding-left: 3%;
+  }
+  
+   /* Mục tiêu nghề nghiệp */
+   .col-lg-6{
+      display: none;
+   }
+   .col-md-6{
+    display: block;
+   }
+   /* Kinh nghiệm - hoạt động -... */
+   .col-lg-4{
+      display: none;
+   }
+   .col-md-6{
+      display: block;
+   }
+   /* Chứng chỉ - giải thưởng */
+   
+    .certificate{
+      flex-direction: column;
+    }
+    .item-1{
+      width: 100%;
+      flex: 100%;
+    }
+    .style{
+      border: none;
+    }
+    .item-2{
+      margin-top: 20px;
+    }
+    /* Dự án */
+    .col-md-4{
+      display: block;
+    }
+  
+ }

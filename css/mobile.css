@@ -1,0 +1,31 @@
+@media only screen and (max-width: 740px){
+    /* navbar */
+    .info-1,.info-2,.info-3,.info-4{
+        display: none !important
+    }
+    .info-1::after,.info-2::after,.info-3::after,.info-4::after{
+        display: none ;
+    }
+    section > .container{
+        display: block;
+        padding: 5px 50px;
+    }
+    .hidden{
+        display: block;
+    }
+    .info-mobile{
+        display: flex;
+        color:#339af0;
+        font-size: 14px;
+        justify-content:flex-start;
+    }
+    /* Mục tiêu nghề nghiệp */
+    .col-md-6{
+        display: none;
+    }
+    .col-sm-12{
+        display: block;
+    }
+    /* Chứng chỉ giải thưởng */
+ 
+}
